@@ -9,16 +9,16 @@ https://youtu.be/aJ1NzRmbzmE
 
 Programação com memória compartilhada
 
-> [fork](https://github.com/padoinedson/pp-2022/tree/main/1fork)  
-> [pthread](https://github.com/padoinedson/pp-2022/tree/main/2pthread)  
-> [openmp](https://github.com/padoinedson/pp-2022/tree/main/3openmp)  
+> [fork](https://github.com/padoinedson/pp2022/tree/main/1fork)  
+> [pthread](https://github.com/padoinedson/pp2022/tree/main/2pthread)  
+> [openmp](https://github.com/padoinedson/pp2022/tree/main/3openmp)  
 > [go](https://golang.org/)
 
 ## Sprint 2
 
 Programação com aceleradores
 
-> [CUDA](https://github.com/padoinedson/pp-2022/tree/main/4cuda)
+> [CUDA](https://github.com/padoinedson/pp2022/tree/main/4cuda)
 
 
 ## Sprint 3
@@ -26,7 +26,7 @@ Programação com aceleradores
 Programação com memória distribuída
 
 > `socket`   
-> [MPI](https://github.com/padoinedson/pp-2022/tree/main/5mpi)
+> [MPI](https://github.com/padoinedson/pp2022/tree/main/5mpi)
 
 ## Sprint 4
 
