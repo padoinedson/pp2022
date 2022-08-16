@@ -17,9 +17,9 @@ Implementar um programa utilizando o compilador gcc que:
  
  
 
-- Dicas:
-	#include <stdlib.h>  
-    srandom(time(NULL));
-	rand() % 1000;
+- Dicas:  
+	#include <stdlib.h>   
+    srandom(time(NULL));  
+	rand() % 1000;  
 
 
