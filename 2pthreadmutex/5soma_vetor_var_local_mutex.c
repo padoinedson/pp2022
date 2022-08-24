@@ -7,8 +7,8 @@
 #define TAM 100000000
 
 //variaveis de escopo global
-int 	vetor[TAM],
-	somaglobal;
+int 	 vetor[TAM];
+unsigned long somaglobal;
 pthread_mutex_t m;
 
 
@@ -42,7 +42,7 @@ int main(int argc, char *argv[])
 	pthread_join(t1, NULL);
 	pthread_join(t2, NULL);
 
-        printf("\n Soma total = %d \n\n", somaglobal);
+        printf("\n Soma total = %lu \n\n", somaglobal);
 
 	tempo2();
 	tempoFinal("mili segundos", argv[0], MSGLOG); 
@@ -53,7 +53,7 @@ int main(int argc, char *argv[])
 void * soma_vetor(void *arg)
 {
 	int x, pos = *((int*)arg);
-	int somalocal = 0;
+	unsigned long somalocal = 0;
 
 	pthread_t pid = pthread_self();
 
@@ -67,7 +67,7 @@ void * soma_vetor(void *arg)
 	   somaglobal += somalocal;
 	pthread_mutex_unlock(&m);
 
-	printf("\nThread %lu - SomaGlobal = %d - SomaLocal =   %d \n", pid, somaglobal, somalocal);
+	//printf("\nThread %lu - SomaGlobal = %d - SomaLocal =   %d \n", pid, somaglobal, somalocal);
 
 
 	pthread_exit(NULL);

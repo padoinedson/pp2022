@@ -41,7 +41,7 @@ int main(int argc, char *argv[])
 	pthread_join(t1, NULL);
 	pthread_join(t2, NULL);
 
-        printf("\n Soma total = %lu \n\n", somaglobal);
+        printf("\n Soma total == %lu \n\n", somaglobal);
 
 	tempo2();
 	tempoFinal("mili segundos", argv[0], MSGLOG); 
