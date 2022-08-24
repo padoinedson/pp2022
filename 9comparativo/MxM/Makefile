@@ -9,7 +9,7 @@ compile:
 #	mpicc 	-o m 	 4_mpi_mult_matriz.c
 #	nvcc 	-o c 	 5_cuda_mult_matriz.cu
 
-	@echo "Compilaçao concluida"
+	@echo "Compilaçao normal concluida"
 
 flag:
 	clear 
@@ -19,7 +19,7 @@ flag:
 #	mpicc 	-o m 	-O3 4_mpi_mult_matriz.c
 #	nvcc 	-o c 	-03 5_cuda_mult_matriz.cu
 
-	@echo "Compilaçao concluida"
+	@echo "Compilaçao com flags concluida"
 
 clean:
 	rm -rf ?
