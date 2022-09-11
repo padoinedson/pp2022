@@ -23,6 +23,6 @@ Individual
 
 ## Avaliação do trabalho:  
 
-15 pontos - implementação  
- 5 pontos - divisão do trabalho  
+- 15 pontos - implementação  
+-  5 pontos - divisão do trabalho  
 
