@@ -1,9 +1,9 @@
 # T1 - Quebra de senha - força bruta com thread  
 
-Data de entrega: 09/10
-Local de entrega: somente no portal
-Peso 20 pontos
-Individual
+Data de entrega: 09/10  
+Local de entrega: somente no portal  
+Peso 20 pontos  
+Individual  
 
 
 ## Descrição do trabalho:
