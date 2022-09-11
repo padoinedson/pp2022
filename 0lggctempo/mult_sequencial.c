@@ -2,8 +2,8 @@
 #include <string.h>
 #include "tempo.h"
 
-#define L 500
-#define C 500
+#define L 2000
+#define C 2000
 
 float m1[C][L], m2[C][L], m3[C][L];
 
