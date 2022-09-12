@@ -5,7 +5,7 @@
 //funcao que sera executada na thread	
 void *funcao_teste(void *arg);			 
 
-
+\\
 							
 int main()
 {
