@@ -10,7 +10,10 @@ func main() {
 	fmt.Printf("\n começando \n\n")
 
 	mostranumero(10)
-
+	mostranumero(10)
+	mostranumero(10)
+	mostranumero(10)
+			
 	fmt.Printf("\n terminando \n\n")
 }
 
