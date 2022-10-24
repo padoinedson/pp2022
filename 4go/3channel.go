@@ -15,9 +15,9 @@ func main() {
 	
 	go geranumero(c)
 
-	vlr := <- c 								//chamada bloqueante
+	vlr2 := <- c 					//chamada bloqueante
 
-	fmt.Printf("\n numero retirado do chan %d\n", vlr)
+	fmt.Printf("\n numero retirado do chan %d\n", vlr2)
 
 	fmt.Printf("\n terminando \n\n")
 }
@@ -27,7 +27,7 @@ func main() {
  
 func geranumero(c chan int) {
 
-//	time.Sleep(5 * time.Second)
+	time.Sleep(5 * time.Second)
 
 	rand.Seed(time.Now().UTC().UnixNano())
 	vlr:= rand.Intn(1000) 

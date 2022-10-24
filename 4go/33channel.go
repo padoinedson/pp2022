@@ -22,11 +22,11 @@ func main() {
 
 	c := make (chan int) 
 
-	for i := 0; i < 5; i++ {	
+	for i := 0; i < 50; i++ {	
 		go calcula(i, c) 
 	}
 
-	for i := 0; i < 10; i++ {		 //so consegue enviar outro num qdo o primeiro for retirado
+	for i := 0; i < 50; i++ {	//so consegue enviar outro num qdo o primeiro for retirado
 		c  <- rand.Intn(1000) 			
 	}
 	
