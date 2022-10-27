@@ -14,6 +14,8 @@ Programação com memória compartilhada
 > [openmp](https://github.com/padoinedson/pp2022/tree/main/3openmp)  
 > [go](https://golang.org/)
 
+
+
 ## Sprint 2
 
 Programação com aceleradores
