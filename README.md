@@ -15,7 +15,6 @@ Programação com memória compartilhada
 > [go](https://golang.org/)
 
 
-
 ## Sprint 2
 
 Programação com aceleradores
