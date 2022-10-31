@@ -3,17 +3,15 @@
 
 void CPUFunction()
 {
-  printf("CPU - rodando ...U.\n");
+  printf("CPU - rodando ...\n");
 }
 
-void GPUFunction()
-{
-  printf("GPU - rodando ....\n");
-}
+
+
+
+
 
 int main()
 {
   CPUFunction();
-
-  GPUFunction();
 }

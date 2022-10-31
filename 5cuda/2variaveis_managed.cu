@@ -1,13 +1,13 @@
 #include <stdio.h>
 
-
-
 #define L 10
+
 
 __managed__ int vetor[L];
 
-
-
+        // managed - Memória unificada 
+        //- os dados sao alocados nas e mem (RAM e GPU)
+        //- os dados sao sincronizados entre as mem
 
 
 

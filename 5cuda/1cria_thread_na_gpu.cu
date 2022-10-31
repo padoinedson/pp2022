@@ -20,7 +20,7 @@ int main(int argc, char *argv[0])
 
  	printf("\n CPU - programa iniciou \n\n\n");
 
-		//-----executa a função na GPU com n threads 
+		//-----executa o kernel/função mostra1 na GPU com n threads 
 		//----- cria n blocos com n threads em cada bloco
 	mostra1 <<< 2, 5 >>> ();
 
