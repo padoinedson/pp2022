@@ -1,3 +1,6 @@
+//versao 1 - qtde de dados = qtde de threads - 10 = 10
+
+
 #include <stdio.h>
 #include <cuda.h>
 
@@ -17,7 +20,7 @@ __global__ void soma_vetor()
 	
 	vetorC[idx] = vetorA[idx] + vetorB[idx];
 
-	printf("\n GPU - thread numero = %d  bloco = %d somando \n ", idx, blockIdx.x);
+	printf("\n GPU - thread = %d  bloco = %d somando ", idx, blockIdx.x);
 
 }
 

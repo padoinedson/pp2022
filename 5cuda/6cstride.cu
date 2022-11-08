@@ -26,7 +26,7 @@ void doubleElements(int *a, int N)
   for (int i = idx; i < N; i += stride)
   {
     a[i] *= 2;
-    printf ("\n GPU - stride %d index %d value %d", stride, i, a[i]);
+    printf ("\n GPU - kernel %d - stride %d index %d value %d", idx, stride, i, a[i]);
   }
 }
 
