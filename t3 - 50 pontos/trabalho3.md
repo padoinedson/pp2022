@@ -8,7 +8,10 @@ Individual
 
 ## Descrição do trabalho:
 
-- Desenvolver um programa que multiplique uma matriz por umvetor em paralelo na GPU - similar ao utilizado em IA:
+- Desenvolver um programa que multiplique uma matriz por um vetor em paralelo na GPU.
+Explicação: https://docs.google.com/spreadsheets/d/1U0M_DaIcyDOe5mbo4Vk5z1MdRGcwyXYbmgMzF0Eg55A/edit?usp=sharing
+
+Este tipo de cálculo é utilizado em treinamento de IA:
 https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi
 
 
