@@ -8,7 +8,7 @@ Grupo: 2 componentes
 
 ## Descrição do trabalho:
 
-- Desenvolver um programa que execute em paralelo utilizando MPI para quebrar uma senha com 8 char que execute com n thread.
+- Desenvolver um programa que execute em paralelo utilizando MPI para quebrar uma senha com 6 char que execute com n thread.
 
 
 

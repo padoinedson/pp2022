@@ -1,10 +1,13 @@
 # T3 - GPU CUDA - M x V = V
 
-Data de entrega: 28/11  
+Data de entrega: 05/12  
 Local de entrega: somente no portal  
 Peso 50 pontos  
 Individual  
 
+
+
+# OPÇÃO A  
 
 ## Descrição do trabalho:
 
@@ -42,3 +45,20 @@ O programa deve ser compilado com nvcc e:
 - 45 pontos - implementação  
 -  5 pontos - explicação do trabalho  
 
+
+
+# OPÇÃO B  
+
+## Descrição do trabalho:
+
+Adquirir um destes dois cursos do convênio que possuímos com a NVIDIA:
+
+### linguagem C  
+https://courses.nvidia.com/courses/course-v1:DLI+C-AC-01+V1/about  
+
+### linguagem Python  
+https://courses.nvidia.com/courses/course-v1:DLI+C-AC-02+V1/about  
+
+
+## Entrega do trabalho:   
+- Arquivo pdf do certificado
