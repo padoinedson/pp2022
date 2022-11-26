@@ -19,6 +19,11 @@ https://docs.nvidia.com/cuda/cuda-c-best-practices-guide/index.html
 https://docs.nvidia.com/cuda/
 
 
+### Exemplo de criação de CUDA threads
+
+https://docs.google.com/spreadsheets/d/1U0M_DaIcyDOe5mbo4Vk5z1MdRGcwyXYbmgMzF0Eg55A/edit?usp=sharing
+
+
 
 ## Fundamentals of Accelerated Computing C/C++  
 ### Accelerating Applications with CUDA C/C++  
