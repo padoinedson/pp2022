@@ -1,14 +1,14 @@
 #include <stdio.h>
 #include <cuda.h>
-#include "tempo.h"
+//#include "tempo.h"
 
-const int L = 8000; 
-const int C = 8000;
+const int L = 3; //8000; 
+const int C = 3; //8000;
 
 
 const int TAM_MATRIZ = L * C;
 
-const int BLOCK_SIZE = 10;
+const int BLOCK_SIZE = 3;
 
 
 void mostra_matriz(int mat[]);
@@ -49,10 +49,12 @@ int main(int argc, char** argv)
 	inicializa_matrizC(h_B);
 
         printf("\n  M A T R I Z    A \n");
-//	mostra_matriz(h_A);
+	mostra_matriz(h_A);
+
         printf("\n  M A T R I Z    B \n");
 	mostra_matriz(h_B);
-//        printf("\n  M A T R I Z    C \n");
+
+        printf("\n  M A T R I Z    C \n");
 	mostra_matriz(h_C);
 
 	//alocação memoria GPU
@@ -65,14 +67,14 @@ int main(int argc, char** argv)
 	cudaMemcpy(d_B, h_B, size, cudaMemcpyHostToDevice);
 	cudaMemcpy(d_C, h_C, size, cudaMemcpyHostToDevice);
 
-	tempo1();
+	//tempo1();
 
 	//Call kernels
 	dim3 dimBlock(BLOCK_SIZE, BLOCK_SIZE);
 	dim3 dimGrid(L / dimBlock.x, C / dimBlock.y);
 	matrixMul<<<dimGrid, dimBlock>>>(d_A, d_B, d_C);
 
-	tempo2();
+	//tempo2();
 
 	//copia matriz C da GPU para RAM
 	cudaMemcpy(h_C, d_C, size, cudaMemcpyDeviceToHost);
@@ -81,7 +83,7 @@ int main(int argc, char** argv)
         printf("\n\n\n  M A T R I Z    C \n");
 	mostra_matriz(h_C);
 
-	tempoFinal("mili segundos", argv[0], MSGLOG);
+	//tempoFinal("mili segundos", argv[0], MSGLOG);
 
 	//libera memorias
 	free(h_A);
