@@ -5,7 +5,7 @@
 ## GO Programming Guide  
 
 https://golang.org/
-
+https://go.dev/learn/
 
 ## GO Example
 
@@ -13,10 +13,13 @@ http://goporexemplo.golangbr.org/
 
 
 
-### install with apt 
+### install 
 
+#### with apt   
 > sudo apt install golang
 
+#### site
+> go.dev
 
 
 
@@ -91,8 +94,20 @@ https://play.golang.org/
 
 
 
-## editor
+## editor visual studio code 
 
-visual studio code   https://code.visualstudio.com/docs/?dv=linux64_deb
+### download linux  
+>  https://code.visualstudio.com/docs/?dv=linux64_deb
 
- 
+
+
+ clicar no menu extensões  
+ digita "go"  
+ e instalar a extensão "Go - Rich Go language support for visual studio code"  
+
+ Dar um command: CTRL + SHIFT + P  
+ digita "go"  
+ seleciona Go: Install/Upadate tools  
+ seleciona todos os itens e ok   
+
+
